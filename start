@@ -26,12 +26,12 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "SEMO" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1NPVVJDRVNFTTAvWl9T" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1NPVVJDRVNFTTAvWl9ILmdpdA==" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1NPVVJDRVNFTTAvWl9T" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1NPVVJDRVNFTTAvWl9ILmdpdA==" | base64 -d`
     fi
     echo "$rlink"
 }
@@ -44,7 +44,7 @@ _run_python_code() {
 _run_catpackgit() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/ZThon-AR/nekopack"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/SOURCESEM0/Z_H"
 ACTIVE_BRANCH_NAME = "master"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)

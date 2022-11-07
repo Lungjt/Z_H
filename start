@@ -6,7 +6,7 @@ _get_zlink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "SEMO" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1NPVVJDRVNFTTAvWl9TTC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1NPVVJDRVNFTTAvWl9TL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -16,7 +16,7 @@ _get_zlink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1NPVVJDRVNFTTAvWl9TTC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1NPVVJDRVNFTTAvWl9TL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     fi
 }
 

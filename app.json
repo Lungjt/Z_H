@@ -1,9 +1,9 @@
 {
-  "name": "𝗭𝗧𝗵𝗼𝗻",
-  "description": "〔 سـورس زدثــون 𝗭𝗲𝗱𝗧𝗵𝗼𝗻 𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10.6 〕- مطـور السـورس : زلـزال الهيبـه ",
-  "logo": "https://telegra.ph/file/c91c09fb188f0f281e628.jpg",
+  "name": "𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐄𝐌𝐎",
+  "description": "〔 سـورس سـيـمـو 𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10.6 〕- مطـور السـورس : سـمـيـر  ",
+  "logo": "https://telegra.ph/file/07e7a64f4db7629437d3c.jpg",
   "keywords": ["plugin","modular","productivity"],
-  "repository": "https://github.com/Zed-Thon/ZelZal",
+  "repository": "https://github.com/SOURCESEM0/Z_S",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -53,12 +53,12 @@
     },
     "TZ": {
       "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
-      "value": "Asia/Baghdad",
+      "value": "Africa/Cairo",
       "required": false
     },
     "UPSTREAM_REPO": {
       "description": "لا تغيــرهـــا",
-      "value": "zel",
+      "value": "SEMO",
       "required": false
     }
   },

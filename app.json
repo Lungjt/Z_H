@@ -3,7 +3,7 @@
   "description": "〔 سـورس سـيـمـو 𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10.6 〕- مطـور السـورس : سـمـيـر  ",
   "logo": "https://telegra.ph/file/07e7a64f4db7629437d3c.jpg",
   "keywords": ["plugin","modular","productivity"],
-  "repository": "https://github.com/SOURCESEM0/Z_S",
+  "repository": "https://github.com/Lungjt/terex",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -58,7 +58,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "لا تغيــرهـــا",
-      "value": "SEMO",
+      "value": "Lungjt",
       "required": false
     }
   },

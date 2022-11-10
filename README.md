@@ -12,3 +12,4 @@ Exttract Thumbnail from media instantly.
 
 * `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
+[TEREX](https://t.me/JJPJB)
